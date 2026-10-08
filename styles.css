@@ -11,3 +11,6 @@ footer{border-top:1px solid #ffffff25;padding:2rem 0;display:flex;justify-conten
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
 .project-links{display:flex;gap:1.5rem;flex-wrap:wrap}#experience-details{padding:1rem 0;max-width:760px}#experience-details li{margin:.8rem 0;color:var(--muted)}[hidden]{display:none!important}
+
+/* Keep the longer site name and CV links comfortable on mobile. */
+header{flex-wrap:wrap;gap:1.2rem 2rem}.brand{font-size:clamp(1.05rem,2.4vw,1.5rem);line-height:1.4}.brand span{font-size:.8em}.cv-section{margin:0 0 5rem;padding-top:2rem;border-top:1px solid #ffffff25}.contact-list{margin-bottom:3rem}.cv-actions{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 2rem}.link-note{font-size:.8em;font-weight:normal}@media(max-width:760px){header{align-items:flex-start}.brand{width:100%}.cv-actions{align-items:flex-start;flex-direction:column}}

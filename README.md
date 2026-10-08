@@ -1,29 +1,28 @@
 # miPerfil — Felipe Valenzuela
-Portafolio local para el proyecto Personal Portfolio Website de Codecademy.
+Portafolio personal con HTML, CSS y JavaScript para Codecademy.
 ## Abrir
-Abre esta carpeta en VSCode y luego index.html en un navegador, o usa Live Server.
-Inicio: index.html. Contacto: contact.html. No requiere instalación ni compilación.
-La demostración también funciona en consola: node script.js.
-## Estructura
-styles.css: diseño adaptable; script.js: generador; browser.js: controles del DOM.
-assets/: fondo, icono y portadas ilustradas (no son capturas de pantalla).
-projects/: copias independientes de los proyectos; no contienen repositorios Git.
+Abre index.html en un navegador o utiliza Live Server en VSCode.
+contact.html contiene los datos de contacto. No hay dependencias ni compilación.
+## Interacción
+browser.js muestra u oculta la trayectoria mediante un botón nativo, DOM y click.
+Actualiza hidden y aria-expanded; funciona con Enter y Espacio.
+Sin JavaScript, la trayectoria sigue visible. El generador pertenece solo a SWTOR.
+## Proyectos independientes
+- SWTOR: https://github.com/KorczackProyect/swtor-legends-club
+- Tea Cozy: https://github.com/KorczackProyect/tea-cozy
+- Dasmoto: https://github.com/KorczackProyect/dasmoto-arts-crafts
+- Number Guesser: https://github.com/KorczackProyect/number-guesser
+- Jupyter: https://github.com/KorczackProyect/nyc-taxi-data-analysis
+Las tarjetas web enlazan a GitHub Pages y al código. El notebook se consulta en
+GitHub; no se ejecuta como una página HTML. No se duplicó su repositorio.
+## Organización
+index.html: inicio; contact.html: contacto; styles.css: diseño adaptable;
+browser.js: interacción; assets/: fondo, icono y portadas ilustradas.
+Los proyectos ya no están copiados dentro de este repositorio.
 ## Selección
-Corte de actividad: 8 de octubre de 2025. Se examinaron archivos de contenido,
-no fechas de carpetas ni metadatos Git. New se excluyó por antigüedad.
-Project y Web se excluyeron por contener solo pruebas mínimas.
-ProyectoJSCC se incluyó porque script.js cambió en octubre de 2026 aunque su
-plantilla sea de 2019. Es un ejercicio sobre una plantilla de Codecademy.
-## Pendiente
-Confirmar biografía, correo y LinkedIn; sustituir las portadas por capturas reales;
-probar visualmente escritorio/móvil, teclado y lector de pantalla; publicar en GitHub Pages.
-Tea Cozy usa imágenes externas de Codecademy; Number Guesser usa una fuente de Google.
-La imagen de fondo procede del proyecto original: comprobar su licencia antes de publicar.
-Las copias conservan el contenido original salvo rutas internas de Dasmoto ajustadas.
-## Plan
-1. Contenido y estructura: esta primera versión.
-2. Revisar contenido y capturas con Felipe.
-3. Pruebas de navegación, interacción y adaptación.
-4. Publicación en GitHub Pages cuando se autorice.
-Wireframe: cabecera → presentación → trayectoria → tarjetas → demo → pie.
-Contacto: cabecera → presentación → correo y LinkedIn → pie.
+Se excluyeron carpetas sin archivos de contenido modificados desde el 8/10/2025.
+New se descartó por antigüedad; Project y Web por contener solo pruebas mínimas.
+Number Guesser tiene una plantilla antigua con JavaScript actualizado en 2026.
+## Pendiente de revisión
+Confirmar biografía y contactos. Revisar móvil y lector de pantalla.
+Las portadas son ilustraciones, no capturas. El fondo proviene de SWTOR.

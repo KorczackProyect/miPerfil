@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.9)), url("./IMG/peakpx.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  padding: 1rem 5%;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #ff5555;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Hero */
+
+.hero {
+  min-height: 35rem;
+  padding: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  line-height: 1.6;
+}
+
+/* Mission */
+
+.mission {
+  width: 90%;
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 8px;
+}
+
+.mission h2 {
+  font-size: 2rem;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* Activities */
+
+.activities {
+  width: 90%;
+  max-width: 1100px;
+  margin: 4rem auto;
+}
+
+.activities h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.activity-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.activity-card {
+  width: 30%;
+  min-width: 250px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 8px;
+}
+
+.activity-card h3 {
+  color: #ff5555;
+  font-size: 1.4rem;
+}
+
+.activity-card p {
+  line-height: 1.6;
+}
+
+/* Meetings */
+
+.meetings {
+  width: 90%;
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background-color: rgba(100, 0, 0, 0.65);
+  border-radius: 8px;
+}
+
+.meetings h2 {
+  font-size: 2rem;
+}
+
+.meetings p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Footer */
+
+footer {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .activity-card {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: 28rem;
+  }
+
+  .hero-content {
+    padding: 1.2rem;
+  }
+
+  .activity-card {
+    width: 100%;
+  }
+
+  .mission,
+  .meetings {
+    width: 95%;
+    padding: 1.5rem;
+  }
+}
+/* Generador: el texto se adapta a pantallas pequeñas sin un ancho fijo. */
+.mission-generator {
+  width: 90%;
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  background: rgba(15, 10, 16, 0.95);
+  border: 1px solid #ff7777;
+  border-radius: 8px;
+}
+.mission-generator h2 { color: #ff9999; }
+.mission-generator p { line-height: 1.7; }
+.mission-message {
+  min-height: 5rem;
+  padding: 1.25rem;
+  background: rgba(100, 0, 0, 0.4);
+  border-radius: 6px;
+  font-size: 1.2rem;
+  overflow-wrap: anywhere;
+}
+.mission-generator button {
+  max-width: 100%;
+  min-height: 44px;
+  padding: 0.9rem 1.4rem;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  background: #ff9999;
+  color: #1b0808;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+.mission-generator button:hover { background: #ffbaba; }
+.mission-generator button:focus-visible, nav a:focus-visible {
+  outline: 3px solid #ffe58a;
+  outline-offset: 5px;
+}
+.mission-generator button:disabled { opacity: 0.6; cursor: default; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

@@ -1,5 +1,5 @@
 # miPerfil — Felipe Valenzuela
-## Proyectos independientes
+## Proyectos en base a trabajos en Codecademy
 - SWTOR: https://github.com/KorczackProyect/swtor-legends-club
 - Tea Cozy: https://github.com/KorczackProyect/tea-cozy
 - Dasmoto: https://github.com/KorczackProyect/dasmoto-arts-crafts
